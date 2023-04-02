@@ -20,6 +20,7 @@ npx create-nx-workspace@latest nx-storybook-comparison
 ```sh
 npm install json2csv
 npm install --save-dev @types/json2csv
+npm install stream-browserify
 ```
 
 ```sh
