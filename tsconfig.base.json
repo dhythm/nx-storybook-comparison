@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-storybook-comparison/storybook-vite": [
+        "libs/storybook-vite/src/index.ts"
+      ],
+      "@nx-storybook-comparison/storybook-webpack": [
+        "libs/storybook-webpack/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
